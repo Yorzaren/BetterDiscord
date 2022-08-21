@@ -104,7 +104,7 @@
 }
 
 /* Fix hijacking the things has interesting effects */
-.floating-window.resizable, .contentWrapper-3vHNP2, .itemFilled-1cPbtg, .authedApp-8q3NA9, .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98 {
+.floating-window.resizable, .contentWrapper-3vHNP2, .itemFilled-1cPbtg, .authedApp-8q3NA9, .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98, .loadingWrapperInner-3CbkJc {
 	background:var(--theme-darkest-color);
 }
 
