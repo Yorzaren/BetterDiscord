@@ -1,0 +1,153 @@
+/**
+ * @name Dragon Theme
+ * @author Yorzaren
+ * @version 1.0
+ * @description A theme with orange dragon
+ * @source 
+ */
+:root {
+	--background: url('https://img.wallpapersafari.com/desktop/1920/1080/95/89/wdZHQO.jpg');
+	
+	/* Theme Colors */
+	--theme-darkest-color: #000;
+	--theme-dark-color: #191919;
+	--theme-primary-accent:#ec750e; 
+	--theme-secondary-accent:#fffe42;
+	--theme-tertiary-accent:#572708;
+	--theme-lightest-color: #fff;
+	--theme-light-color: #f0f0f0;
+	
+	--activetext-colour: var(--theme-lightest-color);
+	--header-secondary: var(--theme-lightest-color);
+	--channels-default: var(--theme-lightest-color);
+	--channel-icon: var(--theme-light-color);
+	--interactive-normal: var(--theme-light-color);
+	--interactive-muted: #999; /* theme-inactive-color */
+	/* Chat box */
+	--channeltextarea-background:transparent;
+	--text-normal: var(--theme-lightest-color);
+	/* Quick and Dirty */
+	/* Colour Maps to the Main Channels, and the server buttons on the left rail */
+	--background-primary: transparent; 
+	/* Channel, Who is Online side rails, as well as the embed, code pres, server folders */
+	--background-secondary: transparent;
+	--background-tertiary: transparent;
+	--background-secondary-alt: transparent;
+
+    --background-modifier-accent: var(--theme-primary-accent);
+    --text-muted: var(--theme-primary-accent);
+    --brand-experiment-500: var(--theme-primary-accent)
+}
+
+#app-mount,#app-mount .container-16j22k {
+	background: var(--background);
+	background-position: center; 
+	background-size: cover; 
+}
+
+/* Fix hijacking the things has interesting effects */
+.floating-window.resizable, .contentWrapper-3vHNP2 {
+	background:var(--theme-darkest-color);
+}
+
+/* Main search bar, Emoji search bar */ 
+.searchBar-jGtisZ, .searchBar-2M9mRP .inner-1NoIT5, .inner-1NoIT5, .container-2oNtJn {
+	background:var(--theme-dark-color);
+}
+
+.embedFull-1HGV2S {	  
+	background:var(--theme-dark-color);
+}
+.markup-eYLPri code {
+	background:var(--theme-dark-color);
+	opacity: .8;
+}
+
+/* Tooltip */
+.layerContainer-2v_Sit .layer-2aCOJ3 {
+	background:var(--theme-dark-color);
+}
+.positionLayer-1cndvf.layer-2aCOJ3 {
+	background:transparent;
+}
+
+/* Chat Buttons */
+.wrapper-2vIMkT {
+	background:var(--theme-dark-color);
+}
+
+/* React */
+.reaction-3vwAF2 {
+	background:var(--theme-dark-color);
+}
+
+/* You reacted */
+.reaction-3vwAF2.reactionMe-1PwQAc {
+	background:var(--theme-primary-accent);
+	border-color:var(--theme-secondary-accent);
+}
+
+/* User profile role button color */
+.role-2TIOKu {
+	background:var(--theme-darkest-color);
+}
+
+/* Chat box unfocused */
+.placeholder-1rCBhr {
+	color:var(--channel-icon);
+}
+
+/* Usernames */
+.username-h_Y3Us, .name-3Vmqxm {
+	text-shadow: 2px 1px 4px var(--theme-primary-accent);
+}
+/* Main text */
+.markup-eYLPri {
+	text-shadow:1px 2px 4px var(--theme-primary-accent);
+}
+/* Mentioned */
+.mentioned-Tre-dv {
+	background:var(--theme-tertiary-accent);
+}
+
+/* Scroll Bar */
+#app-mount ::-webkit-scrollbar-thumb {
+	background-color: var(--theme-primary-accent);
+}
+
+
+/* Unread */
+.isUnread-3Lojb- {
+	border-color:var(--theme-secondary-accent);
+	--divider-color:var(--theme-secondary-accent);
+}
+.isUnread-3Lojb- .content-3spvdd, .newMessagesBar-1hF-9G .barButtonBase-Sk2mdB {
+	background:var(--theme-secondary-accent);
+	color:var(--theme-darkest-color);
+}
+.unreadPill-3nEWYM {
+	color:var(--theme-darkest-color);
+}
+
+/* Channel Unread */
+ .modeUnread-3Cxepe .name-28HaxV {
+	color:var(--theme-primary-accent);
+	text-shadow: 1px 1px 2px var(--theme-primary-accent);
+}
+.unreadRelevant-2f-VSK {
+	background-color:var(--theme-primary-accent);
+}
+.modeUnread-3Cxepe .icon-2W8DHg {
+	color:var(--theme-primary-accent);
+}
+
+/* Date Divider */
+.content-3spvdd {
+	background-color:var(--theme-primary-accent);
+	color: var(--theme-lightest-color);
+}
+
+/* Reply */
+.repliedMessage-3Z6XBG:before {
+    border-color: var(--theme-primary-accent);
+}
