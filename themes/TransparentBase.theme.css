@@ -75,6 +75,9 @@
 .brand-3g5E0C.item-3XjbnG, .themed-2-lozF.item-3XjbnG {
 	color: var(--theme-lightest-color);
 }
+.theme-dark .children-3xh0VB:after {
+    background: none;
+}
 
 /* Server discover */
 .theme-dark .pageWrapper-2PwDoS {
