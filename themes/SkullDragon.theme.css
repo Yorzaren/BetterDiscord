@@ -27,3 +27,7 @@
 	--theme-transparent: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); /* Can also be changed to just "transparent" */
 	
 }
+
+.isUnread-3Lojb- .content-3spvdd, .newMessagesBar-1hF-9G .barButtonBase-Sk2mdB, .unreadPill-3nEWYM {
+    color: var(--theme-lightest-color);
+}
