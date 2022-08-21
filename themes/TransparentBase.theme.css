@@ -94,6 +94,17 @@
 	background: var(--theme-transparent);
 }
 
+/* Voice Chat Channel Limit */
+.total-1c5KCN:after {
+	border-right-color:var(--theme-primary-accent);
+}
+.total-1c5KCN {
+	background-color: var(--theme-primary-accent);
+}
+.wrapper-2fEmwW {
+	border: 1px solid var(--theme-secondary-accent);
+}
+
 /* Inter message Channel links */
 .theme-dark .wrapper-1ZcZW- {
 	color:var(--theme-lightest-color);
@@ -192,7 +203,6 @@
 #app-mount ::-webkit-scrollbar-thumb {
 	background-color: var(--theme-primary-accent);
 }
-
 
 /* Unread */
 .isUnread-3Lojb- {
