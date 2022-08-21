@@ -1,0 +1,24 @@
+/**
+ * @name Red Dragon Theme
+ * @author Yorzaren
+ * @version 1.0
+ * @description A theme with red dragon
+ * @source 
+ */
+:root {
+		/* ------ Theme Colors ------ */
+	--background: url('https://images.alphacoders.com/539/539286.jpg'); /* ------ Customize ------ */
+
+	--theme-primary-accent:#f6193b;  /* ------ Customize ------ */
+	--theme-secondary-accent:#fadd5f; /* ------ Customize ------ */
+	--theme-tertiary-accent:#673964; /* ------ Customize ------ */
+	--background-mentioned-hover:#fb965f;
+
+	--theme-darkest-color: #000;
+	--theme-dark-color: #191919;
+	--theme-lightest-color: #fff;
+	--theme-light-color: #f0f0f0;
+	--theme-inactive-color: #999;
+	--theme-transparent: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); /* Can also be changed to just "transparent" */
+	
+}

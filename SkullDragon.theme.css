@@ -1,0 +1,23 @@
+/**
+ * @name Skull Dragon Theme
+ * @author Yorzaren
+ * @version 1.0
+ * @description Black dragon breathing purple on a skull.
+ * @source 
+ */
+:root {
+		/* ------ Theme Colors ------ */
+	--background: url('https://images7.alphacoders.com/441/441584.jpg'); /* ------ Customize ------ */
+
+	--theme-primary-accent:#b962f9;  /* ------ Customize ------ */
+	--theme-secondary-accent:#642e8d; /* ------ Customize ------ */
+	--theme-tertiary-accent:#311b4d; /* ------ Customize ------ */
+
+	--theme-darkest-color: #000;
+	--theme-dark-color: #191919;
+	--theme-lightest-color: #fff;
+	--theme-light-color: #f0f0f0;
+	--theme-inactive-color: #999;
+	--theme-transparent: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); /* Can also be changed to just "transparent" */
+	
+}
