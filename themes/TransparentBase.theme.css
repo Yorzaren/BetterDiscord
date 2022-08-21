@@ -76,7 +76,7 @@
 	color: var(--theme-lightest-color);
 }
 .theme-dark .children-3xh0VB:after {
-    background: none;
+	background: none;
 }
 
 /* Server discover */
@@ -88,8 +88,6 @@
 .applicationStore-2nk7Lo {
 	background: var(--theme-transparent);
 }
-
-
 
 /* VC / Call Page */
 .callContainer-HtHELf {
@@ -139,13 +137,13 @@
 
 }
 .theme-dark .wrapperAudio-1Bzv_Z {
-    background: var(--theme-dark-color);
-    border-color: var(--theme-darkest-color);
+	background: var(--theme-dark-color);
+	border-color: var(--theme-darkest-color);
 }
 
 /* Tooltip */
 .layerContainer-2v_Sit .layer-2aCOJ3 {
-	background:var(--theme-dark-color);
+	background: transparent;
 }
 .positionLayer-1cndvf.layer-2aCOJ3 {
 	background:transparent;
@@ -247,13 +245,13 @@
 
 /* Post Page */
 .container-2qVG6q.mainCard-3KBsBI {
-    background: var(--theme-darkest-color);
+	background: var(--theme-darkest-color);
 }
 .pill-3pRQlO {
-    background:var(--theme-dark-color);
+	background:var(--theme-dark-color);
 }
 .theme-dark .container-3wLKDe {
-    background:transparent;
+	background:transparent;
 }
 
 /* BetterDiscord Related. */
