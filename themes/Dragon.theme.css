@@ -2,14 +2,20 @@
  * @name Orange Dragon Theme
  * @author Yorzaren
  * @version 1.0
- * @description A theme with orange dragon
- * @source 
+ * @description A theme with orange dragon. An orange and yellow theme.
+ * @source https://github.com/Yorzaren/BetterDiscord/blob/main/themes/Dragon.theme.css
  */
+
+/* Relies on the transparency css */
+@import url(' https://raw.githack.com/Yorzaren/BetterDiscord/main/themes/TransparentBase.theme.css');
+
 :root {
-		/* ------ Theme Colors ------ */
+	/* ------ Theme Colors ------ */
+	/* Background is not my creation, you can get it from: https://wallpapersafari.com/w/wdZHQO */
+
 	--background: url('https://img.wallpapersafari.com/desktop/1920/1080/95/89/wdZHQO.jpg'); /* ------ Customize ------ */
 
-	--theme-primary-accent:#ec750e;  /* ------ Customize ------ */
+	--theme-primary-accent:#ec750e;	 /* ------ Customize ------ */
 	--theme-secondary-accent:#fffe42; /* ------ Customize ------ */
 	--theme-tertiary-accent:#572708; /* ------ Customize ------ */
 	--background-mentioned-hover:#ffd966;

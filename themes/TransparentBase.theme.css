@@ -2,8 +2,8 @@
  * @name Transparency Base
  * @author Yorzaren
  * @version 1.0
- * @description Yes things are transparent
- * @source 
+ * @description Not intended to be used alone. You can add a background image for best results.
+ * @source https://github.com/Yorzaren/BetterDiscord/blob/main/themes/
  */
 :root {
 	
@@ -49,8 +49,8 @@
 	--brand-experiment-500: var(--theme-primary-accent);
 	--brand-experiment: var(--theme-primary-accent);
 	--text-link: var(--theme-secondary-accent);
-    --background-mentioned-hover: var(--theme-secondary-accent); /* if the colors on accents are v different override this */
-    --info-warning-foreground: var(--theme-primary-accent);
+	--background-mentioned-hover: var(--theme-secondary-accent); /* if the colors on accents are v different override this */
+	--info-warning-foreground: var(--theme-primary-accent);
 
 }
 
@@ -108,6 +108,16 @@
 	background:var(--theme-darkest-color);
 }
 
+
+/* So edit message box isnt hard to see */
+.contents-2MsGLg .inner-NQg18Y {
+	background: var(--theme-dark-color);
+}
+
+.operations-3q3u6E a {
+	font-weight: bold;
+	text-shadow: 1px 1px 2px;
+}
 /* Main search bar, Emoji search bar */ 
 .searchBar-jGtisZ, .searchBar-2M9mRP .inner-1NoIT5, .inner-1NoIT5, .container-2oNtJn, .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj, .theme-dark .headerExpanded-1-zwDr {
 	background:var(--theme-dark-color);
@@ -161,11 +171,11 @@
 
 /* Usernames */
 .username-h_Y3Us, .name-3Vmqxm {
-	text-shadow: 2px 1px 2px var(--theme-primary-accent);
+	text-shadow: 1px 1px 2px var(--theme-primary-accent);
 }
 /* Main text */
 .markup-eYLPri {
-	text-shadow:1px 2px 2px var(--theme-primary-accent);
+	text-shadow:1px 1px 2px var(--theme-primary-accent);
 }
 /* Mentioned */
 .mentioned-Tre-dv {
@@ -192,11 +202,11 @@
 }
 
 .bd-unread span {
-    background:var(--theme-primary-accent);
+	background:var(--theme-primary-accent);
 }
 
 .bd-selected span {
-    background: var(--theme-primary-accent);
+	background: var(--theme-primary-accent);
 }
 
 /* Channel Unread */

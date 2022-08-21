@@ -2,14 +2,20 @@
  * @name Skull Dragon Theme
  * @author Yorzaren
  * @version 1.0
- * @description Black dragon breathing purple on a skull.
- * @source 
+ * @description Black dragon breathing purple fire on a skull. A purple theme.
+ * @source https://github.com/Yorzaren/BetterDiscord/blob/main/themes/Dragon.theme.css
  */
+
+/* Relies on the transparency css */
+@import url(' https://raw.githack.com/Yorzaren/BetterDiscord/main/themes/TransparentBase.theme.css');
+
 :root {
-		/* ------ Theme Colors ------ */
+	/* ------ Theme Colors ------ */
+	/* Background is not my creation, you can get it from: https://wall.alphacoders.com/big.php?i=441584 */
+
 	--background: url('https://images7.alphacoders.com/441/441584.jpg'); /* ------ Customize ------ */
 
-	--theme-primary-accent:#b962f9;  /* ------ Customize ------ */
+	--theme-primary-accent:#b962f9;	 /* ------ Customize ------ */
 	--theme-secondary-accent:#642e8d; /* ------ Customize ------ */
 	--theme-tertiary-accent:#311b4d; /* ------ Customize ------ */
 
