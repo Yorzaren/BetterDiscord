@@ -89,6 +89,8 @@
 	background: var(--theme-transparent);
 }
 
+
+
 /* VC / Call Page */
 .callContainer-HtHELf {
 	background: var(--theme-transparent);
@@ -107,10 +109,9 @@
 }
 
 /* Fix hijacking the things has interesting effects */
-.floating-window.resizable, .contentWrapper-3vHNP2, .itemFilled-1cPbtg, .authedApp-8q3NA9, .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98, .loadingWrapperInner-3CbkJc {
+.floating-window.resizable, .contentWrapper-3vHNP2, .itemFilled-1cPbtg, .authedApp-8q3NA9, .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98, .loadingWrapperInner-3CbkJc, .container-2RRFHK, .wrapper-1HIH0j, .main-jX9p1r {
 	background:var(--theme-darkest-color);
 }
-
 
 /* So edit message box isnt hard to see */
 .contents-2MsGLg .inner-NQg18Y {
@@ -136,6 +137,10 @@
 .footer-GXWBBp, .theme-dark .changeDetails-1kMZqI {
 	background:var(--theme-darkest-color);
 
+}
+.theme-dark .wrapperAudio-1Bzv_Z {
+    background: var(--theme-dark-color);
+    border-color: var(--theme-darkest-color);
 }
 
 /* Tooltip */
@@ -230,8 +235,8 @@
 	color: var(--theme-lightest-color);
 }
 
-/* Reply */
-.repliedMessage-3Z6XBG:before {
+/* Reply and thread */
+.repliedMessage-3Z6XBG:before, .cozy-VmLDNB.hasThread-3h-KJV:after {
 	border-color: var(--theme-primary-accent);
 }
 
@@ -240,13 +245,23 @@
 	background:var(--theme-primary-accent);
 }
 
+/* Post Page */
+.container-2qVG6q.mainCard-3KBsBI {
+    background: var(--theme-darkest-color);
+}
+.pill-3pRQlO {
+    background:var(--theme-dark-color);
+}
+.theme-dark .container-3wLKDe {
+    background:transparent;
+}
 
 /* BetterDiscord Related. */
 div.bd-toast {
 	background: var(--theme-darkest-color);
 }
 
-.bd-addon-list .bd-addon-card {
+.bd-addon-list .bd-addon-card, .bd-select .bd-select-options {
 	background: var(--theme-dark-color);
 
 }
