@@ -26,7 +26,7 @@
 	--theme-inactive-color: #999;
 	--theme-transparent: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); /* Can also be changed to just "transparent" */
 	
-	/* ------  Override Discord's default root vars ------	*/
+	/* ------	Override Discord's default root vars ------	*/
 	--activetext-colour: var(--theme-lightest-color);
 	--header-secondary: var(--theme-lightest-color);
 	--channels-default: var(--theme-lightest-color);
@@ -136,7 +136,7 @@
 	background:var(--theme-dark-color);
 }
 
-.embedFull-1HGV2S {	  
+.embedFull-1HGV2S {		
 	background:var(--theme-dark-color);
 }
 .markup-eYLPri code, .textContainer-36wgKK {
@@ -262,6 +262,14 @@
 }
 .theme-dark .container-3wLKDe {
 	background:transparent;
+}
+
+/* Event */
+.card-8UsK4b {
+	background: var(--theme-darkest-color)
+}
+.card-8UsK4b:hover {
+	background: var(--theme-dark-color);
 }
 
 /* BetterDiscord Related. */
