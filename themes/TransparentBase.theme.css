@@ -279,6 +279,11 @@
 	background: var(--theme-dark-color);
 }
 
+/* It's hard to see the replied to message when it does the highlight flash */
+[style^="background-color: rgba(148, 156, 247"]:not([style^="background-color: rgba(148, 156, 247, 0)"]) {
+	background-color:var(--theme-secondary-accent)!important;
+}
+
 /* BetterDiscord Related. */
 div.bd-toast {
 	background: var(--theme-darkest-color);
