@@ -140,7 +140,7 @@
 	background:var(--theme-dark-color);
 }
 .upload-vLbqu- {
-    background: var(--theme-dark-color);
+	background: var(--theme-dark-color);
 }
 .markup-eYLPri code, .textContainer-36wgKK {
 	background:var(--theme-dark-color);
@@ -164,10 +164,10 @@
 }
 /* Shared Friends tool tip */
 .tooltip-14MtrL {
-  background:var(--theme-darkest-color)!important;
+	background:var(--theme-darkest-color)!important;
 }
 .theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb, .theme-light .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-  border-top-color :var(--theme-darkest-color)!important;
+	border-top-color :var(--theme-darkest-color)!important;
 }
 
 /* Chat Buttons */
@@ -257,7 +257,9 @@
 .repliedMessage-3Z6XBG:before, .cozy-VmLDNB.hasThread-3h-KJV:after {
 	border-color: var(--theme-primary-accent);
 }
-
+.blockquoteDivider-363utW {
+	background: var(--theme-primary-accent);
+}
 
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
 	background:var(--theme-primary-accent);
