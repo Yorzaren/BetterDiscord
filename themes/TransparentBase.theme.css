@@ -95,14 +95,18 @@
 }
 
 /* Voice Chat Channel Limit */
-.total-1c5KCN:after {
+.total_c01838:after {
 	border-right-color:var(--theme-primary-accent);
+	color: var(--theme-primary-accent);
 }
-.total-1c5KCN {
+.total_c01838 {
 	background-color: var(--theme-primary-accent);
 }
-.wrapper-2fEmwW {
+.wrapper__5848b {
 	border: 1px solid var(--theme-secondary-accent);
+}
+.users__65981 {
+	background-color: var(--theme-secondary-accent);
 }
 
 /* Inter message Channel links */
